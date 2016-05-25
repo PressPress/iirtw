@@ -1,0 +1,114 @@
+/* 	================= 
+		CHAPTER5.CSS
+	================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+/** {
+	background-color: rgba(0,0,0,0.3);
+}*/
+
+.left {
+	float:left;
+	width: 50%;
+	border-right: 1px solid blue; 
+}
+
+.right {
+	float:right;
+	width: 49%;
+	border-left: 1px solid blue 
+}
+
+
+/* 	=============================
+		TEXT STYLING
+	============================= */
+
+.bzk-heading,
+.rs-heading {
+	font-size: 18px;
+	font-style: italic;
+	color: blue;
+}
+
+.rs-sub-heading {
+	font-size: 14px;
+	color: blue;
+}
+
+.bzk-interview {
+	margin-bottom: 10px;
+	font-family: 'PT Serif Caption', serif;
+	text-align: left;
+	font-size: 14px;
+	line-height: 21px;
+
+}
+
+.right p {
+	font-family: 'PT Sans', sans-serif;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+
+/* 	=============================
+		IMG STYLING
+	============================= */
+
+.inline-img {
+	float: left;
+	width: 28%;
+	margin-right: 4%;
+}
+
+.first {
+	margin-left: 4%;
+}
+
+.inline-img img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 1000px) { 
+
+}
+
+@media (max-width: 900px) { 
+	
+}
+
+@media (max-width: 750px) { 
+	
+	
+}
+
+@media (max-width: 650px) { 
+	
+
+	
+}
+
+@media (max-width: 500px) { 
+
+	
+}
+
+
+
