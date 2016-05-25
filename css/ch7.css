@@ -41,6 +41,8 @@
 }
 
 .rs-sub-heading {
+	width: 70%;
+	margin-left: 15%;
 	font-size: 14px;
 	margin-top: 2px;
 	margin-bottom: -2px;
@@ -70,6 +72,13 @@
 
 .mono {
 	font-family: monospace;
+}
+
+.sub {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	color: #ffcaca;
 }
 
 
