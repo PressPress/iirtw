@@ -96,6 +96,20 @@
 	color: #ffcaca;
 }
 
+.web-link:link,
+.web-link:visited {
+	color: blue;
+	background-color: white;
+	padding: 1px 3px 2px 3px;
+	text-decoration: none;
+	border: 1px solid blue;
+}
+
+.web-link:hover {
+	color: white;
+	background-color: blue;
+}
+
 
 /* 	=============================
 		IMG STYLING
