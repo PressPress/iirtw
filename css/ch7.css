@@ -37,11 +37,13 @@
 .rs-heading {
 	font-size: 18px;
 	font-style: italic;
-	color: blue;
+	color: #ffcaca;
 }
 
 .rs-sub-heading {
 	font-size: 14px;
+	margin-top: 2px;
+	margin-bottom: -2px;
 	color: blue;
 }
 
@@ -59,6 +61,15 @@
 	text-align: justify;
 	font-size: 14px;
 	line-height: 21px;
+}
+
+.inline-img p {
+	font-family: monospace;
+	font-size: 12px;
+}
+
+.mono {
+	font-family: monospace;
 }
 
 
