@@ -465,7 +465,6 @@ li {
     background-size: 60%;
 }
 
-.ch7,
 .ch8,
 .ch9,
 .ch10 {
@@ -498,8 +497,8 @@ a:hover {
 	background-color: #ffe705;
 }
 
-.ch2:hover
-/*.ch7:hover */{
+.ch2:hover,
+.ch7:hover {
 	background-color: #ffdb55;
 }
 
@@ -697,11 +696,11 @@ a:hover {
 		background-color: #ffd489;
 	}
 
-	/*.ch7:hover {
+	.ch7:hover {
 		background-color: #ffd09e;
 	}
 
-	.ch8:hover {
+	/*.ch8:hover {
 		background-color: #ffccbe;
 	}
 
@@ -754,18 +753,18 @@ a:hover {
 	.ch3,
 	.ch4,
 	.ch5,
-	.ch6 {
+	.ch6,
+	.ch7 {
 		background-image: none;
 	}
 
-	.ch6 {
+	.ch7 {
 		border-bottom: none;
 		border-radius: 0 0 10px 10px;
 		-webkit-border-radius: 0 0 10px 10px;
 		-moz-border-radius: 0 0 10px 10px;
 	}
 
-	.ch7,
 	.ch8,
 	.ch9,
 	.ch10 {
