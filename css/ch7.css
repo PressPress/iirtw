@@ -192,7 +192,18 @@
 }
 
 @media (max-width: 750px) { 
-	
+
+	.bzk-interview {
+		font-size: 14px;
+		line-height: 24px;
+
+	}
+
+	#bzk-pull {
+		padding-bottom: 5px;
+		font-size: 24px;
+		line-height: 36px;
+	}
 	
 }
 
