@@ -501,8 +501,8 @@ a:hover {
 	background-color: #ffdb55;
 }
 
-.ch3:hover
-/*.ch8:hover*/ {
+.ch3:hover,
+.ch8:hover {
 	background-color: #ffd582;
 }
 
@@ -699,11 +699,11 @@ a:hover {
 		background-color: #ffd09e;
 	}
 
-	/*.ch8:hover {
+	.ch8:hover {
 		background-color: #ffccbe;
 	}
 
-	.ch9:hover {
+	/*.ch9:hover {
 		background-color: #ffccbe;
 	}
 
@@ -753,18 +753,18 @@ a:hover {
 	.ch4,
 	.ch5,
 	.ch6,
-	.ch7 {
+	.ch7,
+	.ch8 {
 		background-image: none;
 	}
 
-	.ch7 {
+	.ch8 {
 		border-bottom: none;
 		border-radius: 0 0 10px 10px;
 		-webkit-border-radius: 0 0 10px 10px;
 		-moz-border-radius: 0 0 10px 10px;
 	}
 
-	.ch8,
 	.ch9,
 	.ch10 {
 		display: none;
