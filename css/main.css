@@ -465,7 +465,6 @@ li {
     background-size: 60%;
 }
 
-.ch9,
 .ch10 {
 	vertical-align: middle;
 	
@@ -506,8 +505,8 @@ a:hover {
 	background-color: #ffd582;
 }
 
-.ch4:hover
-/*.ch9:hover*/ {
+.ch4:hover,
+.ch9:hover {
 	background-color: #ffcfa7;
 }
 
@@ -703,11 +702,11 @@ a:hover {
 		background-color: #ffccbe;
 	}
 
-	/*.ch9:hover {
+	.ch9:hover {
 		background-color: #ffccbe;
 	}
 
-	.ch10:hover {
+	/*.ch10:hover {
 		background-color: #ffcaca
 	}*/
 
@@ -754,18 +753,18 @@ a:hover {
 	.ch5,
 	.ch6,
 	.ch7,
-	.ch8 {
+	.ch8,
+	.ch9 {
 		background-image: none;
 	}
 
-	.ch8 {
+	.ch9 {
 		border-bottom: none;
 		border-radius: 0 0 10px 10px;
 		-webkit-border-radius: 0 0 10px 10px;
 		-moz-border-radius: 0 0 10px 10px;
 	}
 
-	.ch9,
 	.ch10 {
 		display: none;
 	}
