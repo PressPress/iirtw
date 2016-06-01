@@ -87,6 +87,7 @@
 .quote-text h2 {
 	font-style: italic;
 	/*color: blue;*/
+
 	font-size: 18px;
 }
 
@@ -121,22 +122,70 @@
     MEDIA QUERIES
     ======================= */
 
-@media (max-width: 800px) { 
-	
+@media (max-width: 900px) { 
+	.quote-text h1,
+	.quote-text h2 {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.quote-text h2 {
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 750px) { 
-	
+
+	.left,
+	.right {
+		float: none;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 0;
+		
+	}
+
+	.left {
+		margin-bottom: 40px;
+	}
+
+	.text-left,
+	.text-right {
+		float: none;
+		width: 100%;
+		text-align: justify;
+	}
+
+	.text-left {
+		margin-bottom: 5%;
+	}
+
+	.quote-text h1,
+	.quote-text h2 {
+		font-size: 24px;
+		line-height: 38px;
+	}
+
+	.quote-text h2 {
+		font-size: 18px;
+	}
+
+	.last {
+		margin-bottom: 35px;
+	}
 }
 
-@media (max-width: 650px) { 
+@media (max-width: 550px) { 
 	
+	.quote-text h1,
+	.quote-text h2 {
+		font-size: 18px;
+		line-height: 28px;
+	}
 
-	
-}
-
-@media (max-width: 500px) { 
-
+	.quote-text h2 {
+		font-size: 14px;
+	}
 	
 }
 
