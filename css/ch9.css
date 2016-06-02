@@ -63,7 +63,8 @@
 	============================= */
 
 .left h1,
-.right h1 {
+.right h1,
+.line-bottom h1 {
 	width: 70%;
 	margin-left: 15%;
 	margin-top: 10px;
