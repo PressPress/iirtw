@@ -96,6 +96,12 @@
 		IMG STYLING
 	============================= */
 
+.gyl-image {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -40px;
+}
+
 .left img,
 .right img {
 	width: 100%;
