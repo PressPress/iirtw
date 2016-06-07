@@ -465,11 +465,6 @@ li {
     background-size: 60%;
 }
 
-.ch10 {
-	vertical-align: middle;
-	
-}
-
 li:nth-child(5) {
 	border-right: none;
 }
@@ -510,8 +505,8 @@ a:hover {
 	background-color: #ffcfa7;
 }
 
-.ch5:hover
-/*.ch10:hover*/ {
+.ch5:hover,
+.ch10:hover {
 	background-color: #ffcaca;
 }
 
@@ -706,9 +701,9 @@ a:hover {
 		background-color: #ffccbe;
 	}
 
-	/*.ch10:hover {
+	.ch10:hover {
 		background-color: #ffcaca
-	}*/
+	}
 
 	.intro-text,
 	.intro-close {
@@ -754,19 +749,16 @@ a:hover {
 	.ch6,
 	.ch7,
 	.ch8,
-	.ch9 {
+	.ch9,
+	.ch10 {
 		background-image: none;
 	}
 
-	.ch9 {
+	.ch10 {
 		border-bottom: none;
 		border-radius: 0 0 10px 10px;
 		-webkit-border-radius: 0 0 10px 10px;
 		-moz-border-radius: 0 0 10px 10px;
-	}
-
-	.ch10 {
-		display: none;
 	}
 
 	.table-container {
