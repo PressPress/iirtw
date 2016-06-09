@@ -156,6 +156,12 @@
 		margin-bottom: 40px;
 	}
 
+	.video-wrapper {
+		width:90%; 
+		height:90%;
+		margin-left: 5%;
+	}
+
 	.text-left,
 	.text-right {
 		float: none;
@@ -182,10 +188,18 @@
 	}
 }
 
-@media (max-width: 550px) { 
+@media (max-width: 550px) {
+
+	.video-wrapper {
+		width:90%; 
+		height:90%;
+		margin-left: 0%;
+	} 
 	
 	.quote-text h1,
 	.quote-text h2 {
+		width: 80%;
+		margin-left: 10%;
 		font-size: 18px;
 		line-height: 28px;
 	}
