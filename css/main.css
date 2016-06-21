@@ -360,7 +360,8 @@ p {
 	============================= */
 
 	.pub-link,
-	.about-link {
+	.about-link,
+	.conference-link {
 		position: fixed;
 		width: 120px;
 		height: 120px;
@@ -388,6 +389,16 @@ p {
 
 	.about-link:hover {
 		background-image: url('../img/icons/abt-hov.png');
+	}
+
+	.conference-link {
+		bottom: 0;
+		right: 240px;
+		background-image: url('../img/icons/conf.png');
+	}
+
+	.conference-link:hover {
+		background-image: url('../img/icons/conf-hov.png');
 	}
 
 /* 	=============================
