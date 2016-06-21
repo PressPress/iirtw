@@ -61,6 +61,11 @@ body {
 	color: blue; 
 }
 
+.title-intro a:link,
+.title-intro a:visited {
+	color: blue;
+}
+
 .schedule-title {
 	width: 50%;
 	padding: 2%;
