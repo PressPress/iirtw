@@ -393,7 +393,7 @@ p {
 
 	.conference-link {
 		bottom: 0;
-		right: 240px;
+		right: 245px;
 		background-image: url('../img/icons/conf.png');
 	}
 
@@ -907,6 +907,10 @@ a:hover {
 	
 	.pub-link {
 		display: none;
+	}
+
+	.conference-link {
+		left: 10px;
 	}
 
 	.about-link {
