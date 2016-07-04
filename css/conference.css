@@ -16,7 +16,7 @@ body {
 .content-container {
 	width: 80%;
 	margin-left: 10%;
-	margin-top: 100px;
+	margin-top: 30px;
 
 }
 
@@ -97,7 +97,7 @@ body {
 	padding-bottom: 100px;
 }
 
-.sun {
+.sun2 {
 	float: left;
 	width: 45%;
 	margin-right: 0;
@@ -105,7 +105,7 @@ body {
 }
 
 .sat h1,
-.sun h1 {
+.sun2 h1 {
 	color: blue;
 	font-size: 14px;
 }
@@ -114,8 +114,8 @@ body {
 	border-bottom: 1px solid #ffcaca;
 }
 
-.sun a:link,
-.sun a:visited {
+.sun2 a:link,
+.sun2 a:visited {
 	color: blue;
 }
 
@@ -162,7 +162,8 @@ body {
 }
 
 .conf-sub {
-	margin-bottom: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	font-family: 'PT Sans', sans-serif;
 	color: #ffcaca;
 	font-size: 30px;
@@ -251,9 +252,21 @@ body {
 		/* Visual */
 		/* Misc */
 	}
+
+	.conf-sub {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 20px;
+		line-height: 30px;
+	}
 }
 
 @media (max-width: 750px) { 
+
+	.content-container {
+		margin-top: 0px;
+
+	}
 
 	.content-title {
 		width: 90%;
@@ -292,7 +305,7 @@ body {
 		padding-bottom: 30px;
 	}
 
-	.sun {
+	.sun2 {
 		float: left;
 		width: 100%;
 		margin-right: 0;
@@ -377,7 +390,7 @@ body {
 		padding-bottom: 0px;
 	}
 
-	.sun {
+	.sun2 {
 		float: left;
 		width: 100%;
 		margin-right: 0;
@@ -385,12 +398,12 @@ body {
 	}
 
 	.sat h1,
-	.sun h1 {
+	.sun2 h1 {
 		font-size: 14px;
 	}
 
 	.sat p,
-	.sun p {
+	.sun2 p {
 		font-size: 12px;
 		line-height: 18px;
 	}
@@ -428,6 +441,10 @@ body {
 
 		border-top: 1px solid blue;
 	}
+
+	.sun2 {
+	border-bottom: none;
+}
 }
 
 @media (max-width: 500px) {
@@ -466,25 +483,21 @@ body {
 		margin-bottom: 40px;
 	}
 
-	.sun {
+	.sun2 {
 		float: left;
 		width: 100%;
 		margin-right: 0;
 	}
 
 	.sat h1,
-	.sun h1 {
+	.sun2 h1 {
 		font-size: 14px;
 	}
 
 	.sat p,
-	.sun p {
+	.sun2 p {
 		font-size: 12px;
 		line-height: 18px;
-	}
-
-	.sun {
-		border-bottom: 1px solid blue;
 	}
 
 	.line-under {
